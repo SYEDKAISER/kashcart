@@ -7,43 +7,86 @@
   <title>KashCart</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <link rel="manifest" href="site.webmanifest">
+ <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 </head>
 
 <body>
-  <!--[if lte IE 9]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html">KashCart</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-  <!-- Add your site or application content here -->
-   <h1>KashCart</h1>
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Products</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          More
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Pages</a>
+          <a class="dropdown-item" href="#">About</a>
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+  <div class="container-fluid">
+    <h1>HTML Boiler Plate 6.x.x and Bootstrap 4.x.x</h1>
+    <p>Hello world! This is HTML5 Boilerplate.</p>
+    <p>
+    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam unde sed, dolor quo autem vero saepe nesciunt porro. Nulla id eaque, voluptas veniam esse exercitationem aliquid reiciendis modi aliquam ipsum?</span>
+    <span>Eligendi tenetur laboriosam non exercitationem, cumque esse qui natus aliquam quia voluptas consequatur dicta dolor voluptatibus a rem quam libero, temporibus mollitia laborum necessitatibus facilis officia! Et aspernatur dignissimos veniam.</span>
+    <span>Aut ipsam laboriosam optio doloribus exercitationem nostrum illum, provident blanditiis accusantium saepe, ducimus corporis explicabo soluta nesciunt nisi inventore ut quas eligendi ea hic obcaecati distinctio enim dolor. Eum, aliquam!</span>
+    <span>Recusandae adipisci ipsam enim ad velit culpa quaerat eos ipsum rerum necessitatibus, odio temporibus mollitia vitae, explicabo aliquid exercitationem quis consequuntur debitis quos. Exercitationem ut saepe, porro error, labore quidem.</span>
+    <span>Et accusamus, voluptatibus nam eius error vel voluptates, dicta nostrum maxime hic aperiam, animi ratione soluta veritatis ipsum quaerat est sequi suscipit reiciendis modi consequatur quia tempore. Accusamus, dolorem, ratione?</span>
+  </p>
+  </div>
 
 
 
 
 
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="js/bootstrap.min.js"></script>
+
+
+
+
+
+
+  
+
+
+
+
+
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
   <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script> -->
-
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <!-- <script>
+  <script src="js/main.js"></script>
+ <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
   </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script> -->
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 </body>
 
 </html>

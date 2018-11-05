@@ -1,2 +1,0 @@
-# KashCart
-Ecommerce Website Project
