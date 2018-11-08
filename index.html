@@ -1,24 +1,31 @@
 <!doctype html>
 <html class="no-js" lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>KashCart</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
- <link rel="manifest" href="site.webmanifest">
+  <title>KashCart</title>
+  <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <!-- Bootstrap and Custom CSS -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-
+<!-- body Start -->
 <body>
+  <!-- Info Alert --> 
+  <div class="alert alert-info alert-dismissible fade show" role="alert">
+  <strong>Sale is On</strong> You should check some Products below.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
 	<!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="index.html">KashCart</a>
+  <a class="navbar-brand" href="index.html"><strong>Kash</strong>Cart</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -26,16 +33,19 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Products<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="Product.html">Products<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">Blog<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="Blog.html">Blog<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">Pages<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="Pages.html">Pages<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="About.html">About<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="About.html">About<span class="sr-only">(current)</span></a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
@@ -44,10 +54,11 @@
     </form>
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Cart<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#">Register/Login<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">Register/Login<span class="sr-only">(current)</span></a>
+        <button type="button" class="btn btn-primary">Cart <span class="badge badge-light">2</span>
+        <span class="sr-only">unread messages</span></button>
       </li>
       </ul>
   </div>
@@ -62,13 +73,13 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="img/img1.svg" alt="First slide" width="100%">
+      <img class="d-block w-100" src="img/img1.svg" class="img-fluid" alt="First slide" width="100%">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="img/img1.svg" alt="Second slide" width="100%">
+      <img class="d-block w-100" src="img/img1.svg" class="img-fluid" alt="Second slide" width="100%">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="img/img1.svg" alt="Third slide" width="100%">
+      <img class="d-block w-100" src="img/img1.svg" class="img-fluid" alt="Third slide" width="100%">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -89,6 +100,7 @@
     <span>Aut ipsam laboriosam optio doloribus exercitationem nostrum illum, provident blanditiis accusantium saepe, ducimus corporis explicabo soluta nesciunt nisi inventore ut quas eligendi ea hic obcaecati distinctio enim dolor. Eum, aliquam!</span>
     <span>Recusandae adipisci ipsam enim ad velit culpa quaerat eos ipsum rerum necessitatibus, odio temporibus mollitia vitae, explicabo aliquid exercitationem quis consequuntur debitis quos. Exercitationem ut saepe, porro error, labore quidem.</span>
     <span>Et accusamus, voluptatibus nam eius error vel voluptates, dicta nostrum maxime hic aperiam, animi ratione soluta veritatis ipsum quaerat est sequi suscipit reiciendis modi consequatur quia tempore. Accusamus, dolorem, ratione?</span>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   </p>
   </div>
 
@@ -96,31 +108,10 @@
 
 
 
-
-
-
-
-
-
-  
-
-
-
-
-
-  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
-   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="js/bootstrap.js"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
- <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+<!-- Scripts -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
