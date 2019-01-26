@@ -1,3 +1,5 @@
 # KashCart
 Ecommerce Website Project
-Created By # Sahil Ahmed
+HTML Boilerplate 5
+Bootstrap 4.1.3
+Author # Sahil Ahmed
