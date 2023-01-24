@@ -5,4 +5,4 @@ Preview:https://www.neontech.me/kashcart/
 
 Created with Bootstrap 4
 
-Author #Sahil Ahmed
+Author #Syed Kiaser Mehraj
